@@ -15,9 +15,14 @@ section {
     background-color: rgb(8, 29, 75);
 }
 
+.text-white {
+    color: white;
+}
+
 .my-navbar {
     margin-bottom: 0;
     border: none;
+    background-color: white;
 }
 
 .navbar-brand img {
@@ -30,17 +35,84 @@ section {
 
 .my-btn {
     background-color: white;
-    color: rgb(3, 38, 150);
+    color: rgb(20, 79, 245);
     border-style: solid 1px;
-    border-color: rgb(3, 38, 150);
+    border-color: rgb(20, 79, 245);
 }
 
 /* END HEADER
 ----------------
    START MAIN */
 
+.hero-left {
+    padding-right: 80px;
+}
 
+.main-top-top {
+    background-image: url(img/bg-banner-home.jpg);
+    background-size: contain;
+}
 
+.hero-section {
+    padding-right: 0%;
+}
+
+.h1-hero {
+    font-size: 55px;
+    color: white;
+}
+
+.h4-hero {
+    color: rgb(190, 205, 251);
+    font-size: 20px;
+}
+
+.signin-box {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px 15px;
+}
+
+.h2-hero {
+    color: rgb(20, 79, 245);
+    margin-top: 0;
+}
+
+.my-form {
+    margin-bottom: 10px;
+}
+
+.create-button {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+    background-color: rgb(101, 154, 248);
+    margin-bottom: 10px;
+    border: none;
+}
+
+.signup-button {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: gray;
+    border: none;
+    box-shadow: 2px 2px lightgray;
+    background-image: url(img/google-icon.png);
+    background-size: 22px;
+    background-position-y: center;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.terms-of-service {
+    color: rgb(20, 79, 245);
+    text-decoration: underline;
+}
 
 
 
