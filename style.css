@@ -1,0 +1,22 @@
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bg-gray {
+    background-color: rgb(243, 245, 249);
+}
+
+.bg-blue {
+    background-color: rgb(3, 38, 150);
+}
+
+.bg-dark-blue {
+    background-color: rgb(8, 29, 75);
+}
+
+[class*="col-"] {
+    background-color: greenyellow;
+    padding: 30px 10px;
+    border: solid 1px black;
+}
