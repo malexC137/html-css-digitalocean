@@ -15,8 +15,42 @@ section {
     background-color: rgb(8, 29, 75);
 }
 
-[class*="col-"] {
+.my-navbar {
+    margin-bottom: 0;
+    border: none;
+}
+
+.navbar-brand img {
+    height: 100%;
+}
+
+.my-navbar-left {
+    margin-left: 100px;
+}
+
+.my-btn {
+    background-color: white;
+    color: rgb(3, 38, 150);
+    border-style: solid 1px;
+    border-color: rgb(3, 38, 150);
+}
+
+/* END HEADER
+----------------
+   START MAIN */
+
+
+
+
+
+
+
+
+
+
+/* [class*="col-"] {
     background-color: greenyellow;
     padding: 30px 10px;
     border: solid 1px black;
-}
+} */
+
