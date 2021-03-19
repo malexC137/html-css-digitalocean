@@ -19,6 +19,22 @@ section {
     color: white;
 }
 
+.text-gray {
+    color: gray;
+}
+
+.text-lightgray {
+    color: lightgray;
+}
+
+.text-blue {
+    color: rgb(20, 79, 245);
+}
+
+.text-azure {
+    color: rgb(190, 205, 251);
+}
+
 .my-navbar {
     margin-bottom: 0;
     border: none;
@@ -62,8 +78,7 @@ section {
     color: white;
 }
 
-.h4-hero {
-    color: rgb(190, 205, 251);
+.h4-xl {
     font-size: 20px;
 }
 
@@ -78,7 +93,7 @@ section {
     margin-top: 0;
 }
 
-.my-form {
+.form-1 {
     margin-bottom: 10px;
 }
 
@@ -109,9 +124,41 @@ section {
     margin-bottom: 10px;
 }
 
-.terms-of-service {
-    color: rgb(20, 79, 245);
-    text-decoration: underline;
+/* END MAIN 1ST SECTION
+----------------
+   START MAIN 2ND SECTION */
+
+.img-contain img {
+    width: 40%;
+    margin: 10px;
+}
+
+@media all and (min-width: 768px) {
+    .img-contain img {
+        width: 15%;
+        margin: 0;
+    }
+    .form-col {
+        padding-left: 100px;
+    }
+}
+
+.h4-margin {
+    margin-bottom: 50px;
+}
+
+.form-2 {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 0%;
+    box-shadow: none;
+    font-size: 20px;
+    padding: 22px;
+}
+
+.my-col-margin-1 {
+    margin-bottom: 20px;
 }
 
 
