@@ -58,16 +58,16 @@ section {
     margin-left: 100px;
 }
 
+.navbar-toggle .icon-bar {
+    background-color: rgb(20, 79, 245);
+}
+
 .my-btn {
     background-color: white;
     color: rgb(20, 79, 245);
     border-style: solid 1px;
     border-color: rgb(20, 79, 245);
 }
-
-/* END HEADER
-----------------
-   START MAIN */
 
 .hero-left {
     padding-right: 80px;
@@ -92,8 +92,6 @@ section {
     border-radius: 5px;
     padding: 15px 15px;
 }
-
-
 
 .h2-hero {
     color: rgb(20, 79, 245);
@@ -151,10 +149,6 @@ section {
     margin-top: 40px;
 }
 
-/* END MAIN TOP
-----------------
-   START MAIN MID */
-
 .slider-container {
     margin: auto;
     margin-top: 50px;
@@ -167,6 +161,10 @@ section {
 
 .slider-box, .chevron-right, .chevron-left {
     display: inline-block;
+}
+
+.slider-box {
+    vertical-align: middle;
 }
 
 .slider-box img {
@@ -225,7 +223,6 @@ section {
     width: 30%;
 }
 
-
 .img-container-bot {
     background-color: white;
     border-radius: 5px;
@@ -250,10 +247,55 @@ section {
     margin-right: 5px;
 }
 
+/* //////////////NOTIFICATIONS SHARK//////////*/
 
-/* [class*="col-"] {
-    background-color: lightgreen;
-} */
+.help-button {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/shark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-color: blue;
+    float: left;
+    margin: 5px 0;
+    position: relative;
+    top: 0px;
+}
+
+.cloud {
+    width: 200px;
+    height: 55px;
+    background-color: white;
+    float: left;
+    position: relative;
+    bottom: 0px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.triangle-icon {
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    color: white;
+}
+
+.notification-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: solid 2px white;
+    color: white;
+    font-size: 10px;
+    background-color: red;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    text-align: center;
+}
+
+/* ///////////////MEDIA QUERIES///////////// */
 
 @media all and (max-width: 768px) {
 
@@ -264,8 +306,6 @@ section {
     .slider-box img {
         width: 250px;
     }
-
-
 
     .chevron-left, .chevron-right {
         display: none;
@@ -282,4 +322,69 @@ section {
         padding-left: 100px;
     }
 
+}
+
+@media (min-width: 992px) {
+    .container>.my-navbar-collapse {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .my-navbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .my-navbar-collapse.collapse {
+        display: block!important;
+        height: auto!important;
+        padding-bottom: 0;
+        overflow: visible!important;
+    }
+    
+    .navbar-toggle {
+        display: none;
+    }
+    
+    .help-button-container {
+        width: 270px;
+        height: 55px;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+    }
+    
+    .help-button {
+        position: relative;
+        float: right;
+    }
+    
+    .cloud {
+        position: relative;
+        float: left;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        width: 100%;
+    }
+    .nav-container {
+        padding-right: 0px;
+    }
+    .navbar-toggle {
+        display: inline-block;
+        margin-right: 0px;
+        padding-right: 0px;
+    }   
+    .help-button-container {
+        width: 210px;
+        height: 120px;
+        position: fixed;
+        left: 40px;
+        bottom: 40px;
+    }
+    
 }
