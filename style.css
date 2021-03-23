@@ -3,12 +3,13 @@ section {
     padding-bottom: 30px;
 }
 
+/* ///////////////////////STYLES START//////////////////////// */
+
 .bg-gray {
     background-color: rgb(243, 245, 249);
 }
 
 .bg-blue {
-    /* background-color: */
     background-image: linear-gradient(rgb(19,67,179),rgb(3, 37, 149));
 }
 
@@ -44,6 +45,41 @@ section {
     font-size: 20px;
 }
 
+/* //////////////////////STYLES END////////////////////////// */
+                            /*  */
+/* ///////////////////////HOVER START//////////////////////// */
+
+#my-ancor-1:hover {
+    background-color: rgb(234, 240, 255);
+    color: rgb(20, 79, 245);
+}
+
+.my-btn-1:hover {
+    background-color: rgb(234, 240, 255);
+    color: rgb(20, 79, 245);
+    border-color: white;
+}
+
+.create-button:hover {
+    background-color: rgb(234, 240, 255);
+    color: rgb(190, 205, 251);
+}
+
+.signup-button:hover {
+    background-color: rgb(234, 240, 255);
+    color: rgb(190, 205, 251);
+    box-shadow: 2px 2px rgb(190, 205, 251);
+}
+
+.my-ancor-2:hover {
+    color: rgb(190, 205, 251);
+    text-decoration: none;
+}
+
+/* ////////////////////////HOVER END///////////////////////// */
+                              /*  */
+/* /////////////////////////NAVBAR START///////////////////// */
+
 .my-navbar {
     margin-bottom: 0;
     border: none;
@@ -62,12 +98,16 @@ section {
     background-color: rgb(20, 79, 245);
 }
 
-.my-btn {
+.my-btn-1 {
     background-color: white;
     color: rgb(20, 79, 245);
-    border-style: solid 1px;
-    border-color: rgb(20, 79, 245);
+    border-style: solid;
+    border-color: rgb(51, 101, 238);
 }
+
+/* /////////////////////////NAVBAR END/////////////////////// */
+                                /*  */
+/* ///////////////////////////HERO START///////////////////// */
 
 .hero-left {
     padding-right: 80px;
@@ -129,6 +169,10 @@ section {
     margin-bottom: 10px;
 }
 
+/* ///////////////////////////HERO END/////////////////////// */
+                                /*  */
+/* /////////////////////////MAIN MID START/////////////////// */
+
 .img-contain img {
     width: 40%;
     margin: 10px;
@@ -148,6 +192,10 @@ section {
     margin-bottom: 20px;
     margin-top: 40px;
 }
+
+/* //////////////////////////MAIN MID END//////////////////// */
+                                /*  */
+/* //////////////////////////SLIDER START//////////////////// */
 
 .slider-container {
     margin: auto;
@@ -198,6 +246,25 @@ section {
     margin-top: 20px;
 }
 
+.img-container-bot {
+    background-color: white;
+    border-radius: 5px;
+    max-width: 500px;
+    padding: 50px;
+}
+
+.img-container-bot img {
+    max-width: 200px;
+}
+
+.read-story {
+    margin-top: 20px;
+}
+
+/* //////////////////////////SLIDER END////////////////////// */
+                                /*  */
+/* //////////////////////////TABLE START///////////////////// */
+
 .h2-table {
     margin-bottom: 20px;
 }
@@ -223,20 +290,9 @@ section {
     width: 30%;
 }
 
-.img-container-bot {
-    background-color: white;
-    border-radius: 5px;
-    max-width: 500px;
-    padding: 50px;
-}
-
-.img-container-bot img {
-    max-width: 200px;
-}
-
-.read-story {
-    margin-top: 20px;
-}
+/* //////////////////////////TABLE END/////////////////////// */
+                                /*  */
+/* //////////////////////////FOOTER///START////////////////// */
 
 .p-footer {
     margin: 20px 0 0 0;
@@ -247,7 +303,9 @@ section {
     margin-right: 5px;
 }
 
-/* //////////////NOTIFICATIONS SHARK//////////*/
+/* //////////////////////////FOOTER END////////////////////// */
+                                /*  */
+/* ////////////////////NOTIFICATIONS SHARK////////////////////*/
 
 .help-button {
     width: 50px;
@@ -261,6 +319,7 @@ section {
     margin: 5px 0;
     position: relative;
     top: 0px;
+    border-radius: 5px;
 }
 
 .cloud {
@@ -272,6 +331,7 @@ section {
     bottom: 0px;
     border-radius: 5px;
     padding: 5px 10px;
+    box-shadow: 2px 2px lightgray;
 }
 
 .triangle-icon {
@@ -295,7 +355,9 @@ section {
     text-align: center;
 }
 
-/* ///////////////MEDIA QUERIES///////////// */
+/* ////////////////////NOTIFICATIONS SHARK////////////////////*/
+                                  /*  */
+/* ///////////////////////////MEDIA QUERIES////////////////// */
 
 @media all and (max-width: 768px) {
 
